@@ -1,7 +1,7 @@
-url: mail.fortifymail.com
+url: $URL_MAIL_IN
 status: up
 code: 200
-responseTime: 165
-lastUpdated: 2023-06-30T16:03:18.299Z
+responseTime: 161
+lastUpdated: 2023-06-30T16:09:19.323Z
 startTime: Fri Jun 30 2023 15:35:26 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
