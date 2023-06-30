@@ -32,9 +32,10 @@ assignees: # Users to assign downtime issues (optional)
 
 status-website:
   cname: status.fortifymail.com
-  logoUrl: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/logo.svg
+  logoUrl: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/icon.svg
   faviconSvg: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/icon.svg
   name: Fortifymail
+  themeUrl: https://status.fortifymail.com/default.css
   introTitle: "**Fortifymail** Service Status"
   introMessage: Status and uptime page for the Fortifymail web and email services.
   navbar:
