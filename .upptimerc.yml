@@ -49,9 +49,7 @@ status-website:
       href: /
 
 i18n:
-  footer: 
-    - This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org).
-    - &copy; 2023 [Cetana Solutions](https://www.cetana.nl). All rights reserved.
+  footer: This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org).\&copy; 2023 [Cetana Solutions](https://www.cetana.nl). All rights reserved.
   
 workflowSchedule:
   graphs: "0 0 * * *"
