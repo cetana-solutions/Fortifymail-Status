@@ -37,7 +37,7 @@ status-website:
   name: Fortifymail
   #theme: light
   #themeUrl: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/default.css
-  css: "body { background-color: #f8f9fa }"
+  css: "body { background-color: #f8f9fa } footer: { font-size: 0.8em; }"
   introTitle: "**Fortifymail** Service Status"
   introMessage: Status and uptime page for the Fortifymail web and email services.
   navbar:
@@ -49,7 +49,7 @@ status-website:
       href: /
 
 i18n:
-  footer: This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org).\&copy; 2023 [Cetana Solutions](https://www.cetana.nl). All rights reserved.
+  footer: This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org).<br>&copy; 2023 [Cetana Solutions](https://www.cetana.nl). All rights reserved.
   
 workflowSchedule:
   graphs: "0 0 * * *"
