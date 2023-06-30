@@ -12,7 +12,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.aliasshield.com
   # baseUrl: /Fortifymail-Status
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/icon.svg
   name: Fortifymail
   introTitle: "**Fortifymail** Service Status"
   introMessage: Uptime and status page for the Fortifymail web and email services.
