@@ -5,6 +5,16 @@ repo: Fortifymail-Status # The name of this repository
 sites:
   - name: Dashboard
     url: https://app.fortifymail.com
+  - name: Website
+    url: https://www.fortifymail.com
+  - name: Inbound mail service
+    check: "tcp-ping"
+    url: mail.fortifymail.com
+    port: 25
+  - name: Outbound mail service
+    check: "tcp-ping"
+    url: email-smtp.eu-central-1.amazonaws.com
+    port: 587
 assignees: # Users to assign downtime issues (optional)
   - ByKaj
 status-website:
@@ -17,10 +27,12 @@ status-website:
   introTitle: "**Fortifymail** Service Status"
   introMessage: Uptime and status page for the Fortifymail web and email services.
   navbar:
-    - title: Status
-      href: /
+    - title: Home
+      href: https://www.fortifymail.com
     - title: Dashboard
       href: https://app.fortifymail.com
-
+    - title: Status
+      href: /
+      
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
