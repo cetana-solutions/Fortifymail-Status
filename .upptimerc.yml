@@ -8,13 +8,19 @@ sites:
   - name: Website
     url: https://www.fortifymail.com
   - name: Inbound mail service
+    icon: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/favicon.ico
     check: "tcp-ping"
     url: mail.fortifymail.com
     port: 25
   - name: Outbound mail service
+    icon: https://d1idiovbex4hy4.cloudfront.net/icon/f2b32bda85a5a4a613eb47fb01c57ce3-2b4a0b6e3c7d785e7e0d22f5d540dce9.svg
     check: "tcp-ping"
     url: email-smtp.eu-central-1.amazonaws.com
     port: 587
+  - name: API service
+    url: https://app.fortifymail.com/api/notifications?page=0
+    headers:
+      - "Authentication: $FM_API_KEY"
 assignees: # Users to assign downtime issues (optional)
   - ByKaj
 status-website:
