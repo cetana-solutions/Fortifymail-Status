@@ -35,8 +35,8 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/icon.svg
   faviconSvg: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/icon.svg
   name: Fortifymail
-  theme: ocean
-  #themeUrl: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/default.css
+  theme: light
+  themeUrl: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/default.css
   introTitle: "**Fortifymail** Service Status"
   introMessage: Status and uptime page for the Fortifymail web and email services.
   navbar:
