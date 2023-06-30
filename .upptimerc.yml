@@ -21,14 +21,17 @@ sites:
     url: https://app.fortifymail.com/api/notifications?page=0
     headers:
       - "Authentication: $FM_API_KEY"
+
 assignees: # Users to assign downtime issues (optional)
   - ByKaj
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.aliasshield.com
   # baseUrl: /Fortifymail-Status
   logoUrl: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/icon.svg
+  faviconSvg: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/icon.svg
   name: Fortifymail
   introTitle: "**Fortifymail** Service Status"
   introMessage: Uptime and status page for the Fortifymail web and email services.
@@ -39,6 +42,15 @@ status-website:
       href: https://app.fortifymail.com
     - title: Status
       href: /
-      
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
+  
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
