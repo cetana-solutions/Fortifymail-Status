@@ -12,13 +12,13 @@ sites:
   - name: Inbound mail
     icon: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/favicon.ico
     check: "tcp-ping"
-    url: $URL_MAIL_IN
+    url: mail.fortifymail.com
     port: 25
     maxResponseTime: 5000
   - name: Outbound mail
     icon: https://d1idiovbex4hy4.cloudfront.net/icon/f2b32bda85a5a4a613eb47fb01c57ce3-2b4a0b6e3c7d785e7e0d22f5d540dce9.svg
     check: "tcp-ping"
-    url: $URL_MAIL_OUT
+    url: email-smtp.eu-central-1.amazonaws.com
     port: 587
     maxResponseTime: 5000
   - name: API
