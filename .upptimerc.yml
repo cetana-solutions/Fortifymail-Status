@@ -5,36 +5,38 @@ repo: Fortifymail-Status # The name of this repository
 sites:
   - name: Dashboard
     url: https://app.fortifymail.com
+    maxResponseTime: 5000
   - name: Website
     url: https://www.fortifymail.com
-  - name: Inbound mail service
+    maxResponseTime: 5000
+  - name: Inbound mail
     icon: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/favicon.ico
     check: "tcp-ping"
     url: mail.fortifymail.com
     port: 25
-  - name: Outbound mail service
+    maxResponseTime: 5000
+  - name: Outbound mail
     icon: https://d1idiovbex4hy4.cloudfront.net/icon/f2b32bda85a5a4a613eb47fb01c57ce3-2b4a0b6e3c7d785e7e0d22f5d540dce9.svg
     check: "tcp-ping"
     url: email-smtp.eu-central-1.amazonaws.com
     port: 587
-  - name: API service
+    maxResponseTime: 5000
+  - name: API
     url: https://app.fortifymail.com/api/notifications?page=0
     headers:
       - "Authentication: $FM_API_KEY"
+    maxResponseTime: 5000
 
 assignees: # Users to assign downtime issues (optional)
   - ByKaj
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: status.aliasshield.com
-  # baseUrl: /Fortifymail-Status
-  logoUrl: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/icon.svg
+  cname: status.fortifymail.com.com
+  logoUrl: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/logo.svg
   faviconSvg: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/icon.svg
   name: Fortifymail
   introTitle: "**Fortifymail** Service Status"
-  introMessage: Uptime and status page for the Fortifymail web and email services.
+  introMessage: Status and uptime page for the Fortifymail web and email services.
   navbar:
     - title: Home
       href: https://www.fortifymail.com
