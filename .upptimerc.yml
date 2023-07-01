@@ -1,5 +1,5 @@
 # Change these first
-owner: ByKaj # Your GitHub organization or username, where this repository lives
+owner: cetana-solutions # Your GitHub organization or username, where this repository lives
 repo: Fortifymail-Status # The name of this repository
 
 sites:
@@ -10,7 +10,7 @@ sites:
     url: https://www.fortifymail.com
     maxResponseTime: 5000
   - name: Inbound mail
-    icon: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/favicon.ico
+    icon: https://raw.githubusercontent.com/cetana-solutions/Fortifymail-Status/master/assets/favicon.ico
     check: "tcp-ping"
     url: mail.fortifymail.com
     port: 25
@@ -32,8 +32,8 @@ assignees: # Users to assign downtime issues (optional)
 
 status-website:
   cname: status.fortifymail.com
-  logoUrl: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/icon.svg
-  faviconSvg: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/icon.svg
+  logoUrl: https://raw.githubusercontent.com/cetana-solutions/Fortifymail-Status/master/assets/icon.svg
+  faviconSvg: https://raw.githubusercontent.com/cetana-solutions/Fortifymail-Status/master/assets/icon.svg
   name: Fortifymail
   metaTags:
     - name: "color-scheme"
@@ -41,7 +41,7 @@ status-website:
     - name: "robots"
       content: "noindex"
   theme: light
-  #themeUrl: https://raw.githubusercontent.com/ByKaj/Fortifymail-Status/master/assets/default.css
+  #themeUrl: https://raw.githubusercontent.com/cetana-solutions/Fortifymail-Status/master/assets/default.css
   css: "body { background-color: #f8f9fa } footer { font-size: 0.8em; }"
   introTitle: "**Fortifymail** Service Status"
   introMessage: Status, availability and response time of the Fortifymail web and email services. The **Mobile App** and the **Browser Extension** are dependent on the availability of the API.
