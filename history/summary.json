@@ -40,9 +40,9 @@
     "url": "mail.fortifymail.com",
     "icon": "https://raw.githubusercontent.com/cetana-solutions/Fortifymail-Status/master/assets/favicon.ico",
     "slug": "inbound-mail",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -51,7 +51,9 @@
     "timeWeek": 136,
     "timeMonth": 154,
     "timeYear": 154,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-07-23": 0
+    }
   },
   {
     "name": "Outbound mail",
