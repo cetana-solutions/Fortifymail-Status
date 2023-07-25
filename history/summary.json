@@ -4,9 +4,9 @@
     "url": "https://app.fortifymail.com",
     "icon": "https://icons.duckduckgo.com/ip3/app.fortifymail.com.ico",
     "slug": "dashboard",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -15,7 +15,9 @@
     "timeWeek": 567,
     "timeMonth": 592,
     "timeYear": 592,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-07-25": 0
+    }
   },
   {
     "name": "Website",
@@ -41,19 +43,17 @@
     "icon": "https://raw.githubusercontent.com/cetana-solutions/Fortifymail-Status/master/assets/favicon.ico",
     "slug": "inbound-mail",
     "status": "up",
-    "uptime": "99.98%",
-    "uptimeDay": "99.55%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 153,
     "timeDay": 153,
     "timeWeek": 145,
     "timeMonth": 153,
     "timeYear": 153,
-    "dailyMinutesDown": {
-      "2023-07-25": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Outbound mail",
@@ -78,17 +78,19 @@
     "url": "https://app.fortifymail.com/api/notifications?page=0",
     "icon": "https://icons.duckduckgo.com/ip3/app.fortifymail.com.ico",
     "slug": "api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 128,
-    "timeDay": 151,
-    "timeWeek": 122,
-    "timeMonth": 128,
-    "timeYear": 128,
-    "dailyMinutesDown": {}
+    "time": 133,
+    "timeDay": 253,
+    "timeWeek": 151,
+    "timeMonth": 133,
+    "timeYear": 133,
+    "dailyMinutesDown": {
+      "2023-07-25": 0
+    }
   }
 ]
