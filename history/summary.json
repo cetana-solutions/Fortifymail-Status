@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.fortifymail.com.ico",
     "slug": "dashboard",
     "status": "up",
-    "uptime": "99.98%",
-    "uptimeDay": "99.52%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 593,
-    "timeDay": 686,
-    "timeWeek": 575,
+    "timeDay": 621,
+    "timeWeek": 595,
     "timeMonth": 593,
     "timeYear": 593,
-    "dailyMinutesDown": {
-      "2023-07-25": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Website",
@@ -31,8 +29,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 399,
-    "timeDay": 457,
-    "timeWeek": 359,
+    "timeDay": 413,
+    "timeWeek": 379,
     "timeMonth": 399,
     "timeYear": 399,
     "dailyMinutesDown": {}
@@ -48,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 153,
-    "timeDay": 153,
-    "timeWeek": 145,
-    "timeMonth": 153,
-    "timeYear": 153,
+    "time": 154,
+    "timeDay": 166,
+    "timeWeek": 149,
+    "timeMonth": 154,
+    "timeYear": 154,
     "dailyMinutesDown": {}
   },
   {
@@ -67,8 +65,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 147,
-    "timeDay": 166,
-    "timeWeek": 136,
+    "timeDay": 150,
+    "timeWeek": 141,
     "timeMonth": 147,
     "timeYear": 147,
     "dailyMinutesDown": {}
@@ -79,18 +77,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.fortifymail.com.ico",
     "slug": "api",
     "status": "up",
-    "uptime": "99.98%",
-    "uptimeDay": "99.52%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 134,
-    "timeDay": 220,
-    "timeWeek": 151,
+    "timeDay": 216,
+    "timeWeek": 156,
     "timeMonth": 134,
     "timeYear": 134,
-    "dailyMinutesDown": {
-      "2023-07-25": 7
-    }
+    "dailyMinutesDown": {}
   }
 ]
