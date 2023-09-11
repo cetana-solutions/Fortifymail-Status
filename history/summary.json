@@ -4,18 +4,20 @@
     "url": "https://app.fortifymail.com",
     "icon": "https://icons.duckduckgo.com/ip3/app.fortifymail.com.ico",
     "slug": "dashboard",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 581,
-    "timeDay": 653,
+    "time": 580,
+    "timeDay": 599,
     "timeWeek": 541,
-    "timeMonth": 575,
-    "timeYear": 581,
-    "dailyMinutesDown": {}
+    "timeMonth": 574,
+    "timeYear": 580,
+    "dailyMinutesDown": {
+      "2023-09-11": 0
+    }
   },
   {
     "name": "Website",
@@ -76,17 +78,19 @@
     "url": "https://app.fortifymail.com/api/notifications?page=0",
     "icon": "https://icons.duckduckgo.com/ip3/app.fortifymail.com.ico",
     "slug": "api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 130,
-    "timeDay": 141,
-    "timeWeek": 120,
+    "timeDay": 145,
+    "timeWeek": 123,
     "timeMonth": 127,
     "timeYear": 130,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-09-11": 0
+    }
   }
 ]
