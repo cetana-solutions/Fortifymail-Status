@@ -1,7 +1,7 @@
 url: https://app.fortifymail.com/api/notifications?page=0
-status: down
-code: 502
-responseTime: 149
-lastUpdated: 2023-09-11T23:05:21.283Z
+status: up
+code: 200
+responseTime: 118
+lastUpdated: 2023-09-11T23:18:02.038Z
 startTime: 2023-06-30T15:35:28.000Z
 generator: Upptime <https://github.com/upptime/upptime>
