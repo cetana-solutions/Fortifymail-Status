@@ -4,9 +4,9 @@
     "url": "https://app.fortifymail.com",
     "icon": "https://icons.duckduckgo.com/ip3/app.fortifymail.com.ico",
     "slug": "dashboard",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -15,16 +15,18 @@
     "timeWeek": 552,
     "timeMonth": 535,
     "timeYear": 580,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-01-12": 0
+    }
   },
   {
     "name": "Website",
     "url": "https://www.fortifymail.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.fortifymail.com.ico",
     "slug": "website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,16 +35,18 @@
     "timeWeek": 368,
     "timeMonth": 363,
     "timeYear": 389,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-01-12": 0
+    }
   },
   {
     "name": "Inbound mail",
     "url": "mail.fortifymail.com",
     "icon": "https://raw.githubusercontent.com/cetana-solutions/Fortifymail-Status/master/assets/favicon.ico",
     "slug": "inbound-mail",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -51,7 +55,9 @@
     "timeWeek": 107,
     "timeMonth": 105,
     "timeYear": 144,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-01-12": 0
+    }
   },
   {
     "name": "Outbound mail",
@@ -76,9 +82,9 @@
     "url": "https://app.fortifymail.com/api/notifications?page=0",
     "icon": "https://icons.duckduckgo.com/ip3/app.fortifymail.com.ico",
     "slug": "api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -87,6 +93,8 @@
     "timeWeek": 120,
     "timeMonth": 114,
     "timeYear": 126,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-01-12": 0
+    }
   }
 ]
