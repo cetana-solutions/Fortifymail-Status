@@ -11,13 +11,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 592,
-    "timeDay": 565,
-    "timeWeek": 517,
+    "timeDay": 483,
+    "timeWeek": 511,
     "timeMonth": 613,
     "timeYear": 596,
-    "dailyMinutesDown": {
-      "2024-01-12": 18
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Website",
@@ -30,14 +28,12 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 390,
-    "timeDay": 339,
-    "timeWeek": 361,
-    "timeMonth": 418,
+    "time": 389,
+    "timeDay": 352,
+    "timeWeek": 356,
+    "timeMonth": 419,
     "timeYear": 391,
-    "dailyMinutesDown": {
-      "2024-01-12": 18
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Inbound mail",
@@ -50,14 +46,12 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 117,
-    "timeDay": 102,
+    "time": 116,
+    "timeDay": 101,
     "timeWeek": 94,
-    "timeMonth": 114,
+    "timeMonth": 115,
     "timeYear": 108,
-    "dailyMinutesDown": {
-      "2024-01-12": 17
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Outbound mail",
@@ -71,9 +65,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 121,
-    "timeDay": 112,
+    "timeDay": 111,
     "timeWeek": 104,
-    "timeMonth": 124,
+    "timeMonth": 125,
     "timeYear": 115,
     "dailyMinutesDown": {}
   },
@@ -89,12 +83,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 123,
-    "timeDay": 113,
+    "timeDay": 115,
     "timeWeek": 106,
-    "timeMonth": 126,
+    "timeMonth": 127,
     "timeYear": 122,
-    "dailyMinutesDown": {
-      "2024-01-12": 17
-    }
+    "dailyMinutesDown": {}
   }
 ]
